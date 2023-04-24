@@ -1,0 +1,22 @@
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+var name="rajesh";
+name +="nagar"
+
+
+
+var text = "<ol>";
+fruits.forEach(myFunction);  // only for array loop 
+text += "</ol>";
+document.getElementById("demo").innerHTML = text;
+
+
+function myFunction(value) 
+{
+  text += "<li>" + value + "</li>";
+  
+} 
+</script>

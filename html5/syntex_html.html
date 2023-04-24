@@ -1,0 +1,109 @@
+
+<!--
+
+HTML5 is the latest and most enhanced version of HTML. Technically, 
+HTML is not a pogramming language, but rather a markup language.
+HTML5 is the next major revision of the HTML standard superseding 
+HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for structuring and presenting content on the 
+World Wide Web.
+
+
+HTML 5 does not have the same syntax rules as XHTML where we needed 
+lower case tag names, 
+quoting our attributes an attribute had to have a value and to close all empty elements.
+
+But HTML5 is coming with lots of flexibility and would support the followings:
+
+Uppercase tag names.  <b>  <B>
+Quotes are optional for attributes. style="color:red" / type="text/css"  type='text/css'
+Attribute values are optional.   type="tewxt/css"  === if not added that optional
+Closing empty elements are optional.   <b></b> /  <b>
+
+
+The DOCTYPE declaration for HTML5 is very simple:
+
+<!DOCTYPE html>
+
+
+HTML 5 authors can use simple syntax to specify Character Encoding as follows: 
+ 
+HTML 4 supports UTF-8. HTML 5 supports both UTF-8 and UTF-16!  Unicode Transformation Format (UTF).
+
+<meta charset="UTF-8">
+
+<meta charset="utf-8" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+Mobile-first styles are part of the core framework.
+To ensure proper rendering and touch zooming, add the following <meta> tag inside the <head> element:
+
+The width=device-width part sets the width of the page to follow the screen-width of 
+the device (which will vary depending on the device).
+
+The initial-scale=1 part sets the initial zoom level when the page is first loaded 
+by the browser.
+
+
+
+
+
+
+
+New HTML5 Elements
+The most interesting new HTML5 elements are: 
+
+New semantic / structuring elements like <header>, <footer>, <article>, and <section>.
+
+New attributes of form elements like number, date, time, calendar, and range.
+
+New graphic elements: <svg> and <canvas>.
+
+New multimedia elements: <audio> and <video>.
+
+
+-->
+
+<!DOCTYPE html>
+<head>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Heena page</title>
+
+<!--
+You can also add new elements to an HTML page with a browser trick.
+
+-->
+<style>
+	
+.raj{
+color:red;
+background-color:green;
+}	
+
+
+nagar{
+
+color:yellow;
+background-color:blue;
+}
+
+	
+</style>
+
+</head>
+
+<body>
+
+
+<div class="raj">Hello Raj</div>
+<nagar>Hello</nagar>
+
+
+</body>
+
+
+</html>

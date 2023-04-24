@@ -1,0 +1,29 @@
+h1{
+	color:red;
+	background-color:yellow;
+}
+
+h2,h3,h4{
+	font-size:30px;
+	text-decoration:underline;
+}
+
+.mystyle{
+	color:green;
+	text-transform:uppercase;
+}
+
+.mystyle1{
+background-color:red;
+}
+
+
+#mydesign{
+	color:pink;
+	text-transform:uppercase;
+}
+
+
+ul.test{
+	border: solid 2px red;
+}

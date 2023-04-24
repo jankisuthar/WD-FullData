@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black; <!-- HTML Table - Adding a Border-->
+   padding: 5px;   <!-- Cell padding specifies the space between the cell content and its borders.-->
+   text-align: left;  <!--HTML Table - Left-align Headings-->
+}
+
+table {
+  border-spacing: 15px; <!-- Border spacing specifies the space between the cells.-->
+}
+
+</style>
+</head>
+<body>
+
+<h2>Cell that spans two rows</h2>
+<p>To make a cell span more than one row, use the rowspan attribute.</p>
+
+<table style="width:100%" cellpadding="10px;" cellspacing="10px;">
+<caption>Simple Table</caption>
+
+  <tr>
+    <th>Name:</th>
+    <td>Bill Gates</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Telephone:</th>
+    <td>55577854</td>
+  </tr>
+  <tr>
+    <td>55577855</td>
+  </tr>
+  <tr>
+    <td colspan="2">Tops Technologies</td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+
+<html>
+   <body>
+   
+<!--
+   
+Arithmetic Operators  					+ - * / % 
+increement & decreement operator    	++ -- 
+Comparison Operators  					== > < <=  >= != 
+Logical (or Relational) Operators      	&&  ||   !   // use with if(condition)
+Assignment Operators  					= =+ =- =* =/ =%   a=10  a=a+b; a=-b
+Conditional (or ternary) Operators      ? :
+
+typeof Operator   The typeof operator evaluates to "number", "string", or "boolean" 
+if its operand is a number, string, or boolean value and returns true or false based 
+on the evaluation. 
+-->
+   
+	<h1 id="demo" onmouseover="arithmetic()"> Arithmatic operator + - * / %</h1>
+	<h1 id="demo1" onmouseover="incree_decree()"> Increement & decreement operators ++ --</h1>
+
+      <script type = "text/javascript">
+		 function arithmetic()
+		 {
+            var a = 31;
+            var b = 10;
+			var sum=a+b;
+			document.getElementById("demo").innerHTML=sum;
+         }
+		 function incree_decree()
+		 {
+            var a = 10;
+			a++;
+            var b = 50;
+			b--;
+			document.getElementById("demo").innerHTML=a;
+			document.getElementById("demo1").innerHTML=b;
+         }
+      </script>
+     
+   </body>
+</html>
